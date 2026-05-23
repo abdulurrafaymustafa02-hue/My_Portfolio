@@ -1,0 +1,277 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+  background-color: rgba(0, 0, 0, 0.925);
+}
+
+#name {
+  color: aquamarine;
+  cursor: pointer;
+  margin: 20px 60px;
+}
+
+#name:hover {
+  color: white;
+}
+
+#navbar ul {
+  display: flex;
+  padding: 0px;
+}
+.navitem {
+  list-style: none;
+  margin: 0px 20px;
+}
+
+.navitem a {
+  color: white;
+  text-decoration: none;
+}
+
+.navitem a:hover {
+  color: aquamarine;
+}
+/* Intro */
+#intro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 0px;
+  color: white;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+}
+
+#myname {
+  font-size: 56px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+
+#sentance {
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  color: aquamarine;
+  margin: 10px 0px;
+}
+
+#intropara {
+  color: grey;
+  width: auto;
+  margin: 10px 0px;
+}
+#introbtn {
+  margin: 50px 2px;
+}
+
+/* Skills & Technologies */
+
+#skill {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #080808;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+}
+
+#skill h4 {
+  color: aquamarine;
+  align-items: center;
+}
+
+#language {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0px;
+}
+
+.languages {
+  margin: 0px 10px;
+}
+
+.languages:hover {
+  color: aquamarine;
+}
+
+.heading {
+  color: grey;
+  font-weight: 800;
+  margin: 0px 10px;
+}
+#languageheading {
+  margin-right: 20px;
+}
+
+#toolsheading {
+  margin-right: 70px;
+}
+
+#tools {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0px;
+}
+
+.tools {
+  margin: 0px 10px;
+}
+.tools:hover {
+  color: aquamarine;
+}
+
+/* Projects */
+#projects {
+  height: 100%;
+  width: auto;
+  color: white;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+}
+
+#projects h1 {
+  align-self: flex-start;
+  width: auto;
+  margin: auto;
+  margin-bottom: 45px;
+  color: aquamarine;
+}
+#projects div {
+  width: 50%;
+  height: 10rem;
+  margin: 10px 0px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+/* Contact */
+
+#contact {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 100px 0px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+  background-color: #080808;
+}
+
+#contact h3 {
+  color: aquamarine;
+  margin: 0;
+}
+#contact p {
+  color: grey;
+  text-align: center;
+}
+#contact div {
+  color: grey;
+}
+#contact div a {
+  text-decoration: none;
+  color: white;
+}
+#contact div a:hover {
+  color: aquamarine;
+}
+
+/* Footer */
+
+footer {
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: auto;
+  text-align: center;
+}
+/* Utility Classes */
+.navfont {
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+}
+
+.introfont {
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+}
+
+.skillfont {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+.projectsfont {
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+}
+
+.contactfont {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+/* btn */
+.fullbtn {
+  background-color: aquamarine;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.fullbtn:hover {
+  background-color: rgba(127, 255, 212, 0.658);
+}
+
+.clearbtn {
+  background-color: black;
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 8px 15px;
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.clearbtn:hover {
+  background-color: aquamarine;
+  color: black;
+}

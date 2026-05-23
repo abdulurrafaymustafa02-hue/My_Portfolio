@@ -1,0 +1,34 @@
+/* Navbar */
+
+#navbar {
+  flex-direction: column;
+}
+
+#name {
+  margin: 8px 0px;
+  margin-right: 14px;
+}
+
+/* Intro */
+
+#intropara {
+  width: auto;
+}
+
+#myname {
+  width: auto;
+  font-size: 40px;
+}
+
+#introbtn {
+  width: auto;
+}
+
+/* Skills */
+#language {
+  flex-direction: column;
+}
+
+#tools {
+  flex-direction: column;
+}
